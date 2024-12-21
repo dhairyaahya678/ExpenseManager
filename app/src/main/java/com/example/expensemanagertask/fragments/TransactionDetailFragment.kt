@@ -92,7 +92,7 @@ class TransactionDetailFragment : Fragment() {
             Toast.makeText(requireContext(), "User not authenticated!", Toast.LENGTH_SHORT).show()
         }
     }
-
+    //For PULL Request
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
